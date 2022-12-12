@@ -1,0 +1,31 @@
+input{
+    display: grid;
+    grid-template-rows: auto;
+    height: 40px;
+    width: 400px;
+    grid-gap: 20%;
+}
+
+body{
+    background-image: url(1.jpg);
+    background-size: 100%;
+}
+
+fieldset{
+    background-color: orange;
+    box-shadow: 1px 1px 20px black; /* primero eje x, eje y, tamaño de la sombra y color */
+    width: 400px;
+    margin: auto;
+}
+
+h1{
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+
+.btn{
+    grid-template-rows: auto;
+    display: grid;
+}

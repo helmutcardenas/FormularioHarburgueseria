@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Problema 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>    
+        <h1>Hamburguesería</h1>
+        <form>
+            <fieldset class="input">
+                <input type="text" placeholder="Nombre y apellido" required>
+                <br>
+                <input type="text" placeholder="Direccion de entrega" required>
+                <br>
+                <input type="number" placeholder="Distancia al local (metros)" max="1000" required>
+            </fieldset>
+            <br>
+            <fieldset>
+                <select>
+                    <option disabled>Selecciona tu comida favorita</option>
+                    <option>Hamburguesa simple con queso y guarnición $10 USD</option>
+                    <option>Hamburguesa doble con queso, tomate y guarnición $14 USD</option>
+                    <option>Hamburguesa triple con queso y guarnición $18 USD</option>
+                    <option>Hamburguesa triple con queso, tomate y guarnición $20 USD</option>
+                </select>
+                <select>
+                    <option disabled>Selecciona tu bebida</option>
+                    <option>Coca cola original</option>
+                    <option>Coca cola light</option>
+                    <option>Coca cola zero</option>
+                    <option>Sprite original</option>
+                    <option>Sprite light</option>
+                    <option>Sprite zero</option>
+                    <option>Fanta original</option>
+                    <option>fanta zero</option>
+                    <option>Agua mineral sin gas</option>
+                    <option>Agua mineral con gas</option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset class="btn">
+                <button value="submit">Realizar Pedido</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
